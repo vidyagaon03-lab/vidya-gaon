@@ -1,0 +1,42 @@
+{
+  "name": "Vidya Gaon - Digital Village Classroom",
+  "short_name": "Vidya Gaon",
+  "description": "Interactive village-based learning platform for rural students",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f4f0",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/placeholder.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/placeholder.svg", 
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "kids"],
+  "lang": "en",
+  "shortcuts": [
+    {
+      "name": "Village Map",
+      "short_name": "Map",
+      "description": "Access the interactive village learning map",
+      "url": "/?tab=village",
+      "icons": [{"src": "/placeholder.svg", "sizes": "96x96"}]
+    },
+    {
+      "name": "Community Wall",
+      "short_name": "Community", 
+      "description": "View student achievements and progress",
+      "url": "/?tab=community",
+      "icons": [{"src": "/placeholder.svg", "sizes": "96x96"}]
+    }
+  ]
+}
